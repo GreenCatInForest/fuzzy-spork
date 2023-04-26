@@ -1,0 +1,45 @@
+/* just adding some css */
+
+#formContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.repoContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em;
+    gap: 1em;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+
+}
+
+button, .button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.repoCard{
+    /* outer wrapper */
+    border: 1px solid black;
+    padding: 1em;
+}
+.repoCardDisplayPicture{
+    display: block;
+    height: auto;
+    width: max(50px, 3em);
+}
